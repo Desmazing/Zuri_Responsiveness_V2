@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: aliceblue;
+  background-color: antiquewhite;
   justify-content: center;
-  padding-left: 400px;
+  padding-left: 300px;
   padding-top: 60px;
 }
 main {
@@ -16,11 +16,16 @@ main {
   justify-content: center;
   height: 60vh;
 }
+.a{
+  text-align: center;
+  font-weight: 700;
+  padding-left: 220px;
+  font-size: 25px;
+}
 .heading1 {
   background-color: rgb(189, 127, 11);
   padding: 20px;
   color: white;
-  font-family: Yamaxanadu ;
 }
 .heading2 {
   background-color: rgb(6, 120, 126);
@@ -49,7 +54,7 @@ button {
   background-color: white;
   border: 2px;
   border-radius: 25px;
-  bottom: 30%;
+  bottom: 22%;
   position: fixed;
   padding-left: 0%;
   font-size: large;
@@ -63,28 +68,28 @@ button {
 
 .h1 {
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .h2 {
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .h3 {
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 button:hover {
-  opacity: 50%;
+  opacity: 30%;
   color: white;
   background-color: transparent;
   border: 2px solid;
 }
-.btn1 {
+.base1 {
   color: rgb(6, 120, 126);
 }
-.btn2 {
+.base2 {
   color: rgb(2, 45, 59);
 }
-.btn3 {
+.base3 {
   color: rgb(189, 127, 11);
 }
